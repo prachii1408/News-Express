@@ -4,9 +4,7 @@
   height:10vh;
   width:100vw;
   background-color: #00235B;
-  position:fixed;
-  top:0;
-  right:0;
+
 }
 .logo{
   height:55px;
@@ -58,9 +56,13 @@ li:hover{
 }
 
 
+
 @media (max-width:983px){
  .checkbtn{
   display:block;
+ }
+ h5{
+  font-size: 10px;
  }
  ul{
   position:fixed;
@@ -83,9 +85,12 @@ li:hover{
  a{
   color: black;
  }
- #check:checked ~ ul{
-     left:0;
- }
+ 
+}
+@media (max-width:463px){
+  h5{
+    font-size: 6px;
+  }
 }
 
 
@@ -98,6 +103,7 @@ li:hover{
   text-align: center;
   
 }
+
 .heading{
   text-align: center;
 }
