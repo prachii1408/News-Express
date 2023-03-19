@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
-  const [state,setState]=useState(false);
+  const [state,setState]=useState(true);
   function togglebar(){
       setState(!state);
   }
